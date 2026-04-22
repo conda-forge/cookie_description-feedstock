@@ -1,5 +1,5 @@
 {% set name = "cookie_description" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cookie_description-{{ version }}.tar.gz
-  sha256: 64cadfe4e9a424f34aac5a5ca65ce9913908edaf2e70c55c51e27e1a96a6cec2
+  sha256: 4ee04de1b518dc923edd9629e0bb3dcf446447dbb55e0a5ca582c90d8a399600
 
 build:
   noarch: python
@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://pypi.org/project/cookie_description
-  summary:  URDF and Xacro descriptions for Cookie wheeled bipeds.
+  summary: URDF and Xacro descriptions for Cookie wheeled bipeds.
   dev_url: https://codeberg.org/upkie/cookie_description
   license: Apache-2.0
   license_file:
