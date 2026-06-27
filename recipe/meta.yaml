@@ -1,5 +1,5 @@
 {% set name = "cookie_description" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cookie_description-{{ version }}.tar.gz
-  sha256: 4ee04de1b518dc923edd9629e0bb3dcf446447dbb55e0a5ca582c90d8a399600
+  sha256: 86b2fc7d46a886ade11e1a3c2ea9d712194fef7e8deb25d4f44f0842dab7dec5
 
 build:
   noarch: python
