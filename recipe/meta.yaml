@@ -1,13 +1,13 @@
 {% set name = "cookie_description" %}
-{% set version = "1.2.1" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cookie_description-{{ version }}.tar.gz
-  sha256: 86b2fc7d46a886ade11e1a3c2ea9d712194fef7e8deb25d4f44f0842dab7dec5
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/cookie_description-{{ version }}.tar.gz
+  sha256: 44a36eee7e36ab32bc1fbbe3e3ac29917c49d27ef559a483546b290d3e53684a
 
 build:
   noarch: python
